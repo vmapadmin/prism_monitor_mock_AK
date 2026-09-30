@@ -28,3 +28,9 @@ Vanilla JS, no framework, no build dependencies beyond Python 3.
 
 ## Run
 Open `dist/prism-monitor.html` in any modern browser. No server needed.
+
+## Deploy (GitHub Pages)
+Every push to `main` runs `.github/workflows/pages.yml`: build, run the end-to-end test,
+then publish `dist/prism-monitor.html` as `index.html` to
+https://vmapadmin.github.io/prism_monitor_mock_AK/
+(Repo setting required once: Settings → Pages → Source: **GitHub Actions**.)
